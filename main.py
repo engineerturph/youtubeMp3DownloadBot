@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from waiting import wait, TimeoutExpired
 from time import sleep
 def downloadFromLınk(link):
     options = webdriver.ChromeOptions()
